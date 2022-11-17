@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brass & Woodwinds</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/27bf763da3.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light d-flex flex-row container py-0">
+          <a href="#" class="navbar-brand">
+            <img src="img/yamaha-logo.jpg" alt="yamaha-logo">
+          </a>
+          <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+              <span class="navbar-toggler-icon"></span> 
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav m-auto px-5 text-center">
+              <li class="nav-item">
+                  <a href="../YAMAHA-PRODUCTS/index.html" class="nav-link active">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#dealer locator" class="nav-link">Dealer Locator</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#disocver" class="nav-link">Discover</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#support" class="nav-link">Support</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#shop" class="nav-link">Shop</a>
+              </li>
+              </ul>
+              <ul class="navbar-nav d-flex flex-row justify-content-center">
+                <li>
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-user" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" title="My Acount">
+                        </i>
+                    </a>
+                    <div class="modal fade" id="exampleModal" tabindex="-1"aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-black" id="exampleModalLabel">New message</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label text-black">Email address</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
+                                      
+                                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="exampleInputPassword1" class="form-label text-black">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password">
+                                      <div class="form-text">Must be 8-20 characters long.</div>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label text-black" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-cart-shopping px-3" title="Shop"></i>
+                    </a>
+                </li>
+                <form action="#" method="get" class="searchform navbar-form" role="search">
+                    <input type="hidden" value="search" name="view">
+                    <div class="input-group">
+                    <input type="text"  name="searchword" required class="form-control" placeholder="Search" name="q">
+                    <div class="input-group-btn">
+                       <button class="btn" type="submit">
+                          <i class="fa-solid fa-magnifying-glass" title="Search"></i>
+                       </button>
+                    </div>
+                    </div>
+                </form>
+            </ul>
+          </div>
+          </nav>
+              <!-- Second Navbar -->
+              <section class="navbar2 d-flex flex-row navbar navbar-expand-lg navbar-light px-5">
+                <button class="navbar-toggler" data-bs-target="#items" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="collapse navbar-collapse" id="items">
+                    <ul class="navbar-nav px-5 py-2">
+                        <li>
+                            <a href="#percussion" class="nav-link percussion" style="color: var(--text-color);">
+                                Percussion
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">News & Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Artists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Downloads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Special Contents</a>
+                        </li>
+                    </ul>
+                </div>
+              </section>
+              <div class="container">
+                <img src="img/percussion header.jpg" style="position: relative; width: 100%;" alt="">
+              </div>
+    </header>
+    <!-- End Navbar -->
+    <div class="home d-flex flex-row container pt-1">
+        <a href="../YAMAHA/index.html">Home
+            <i class="fa-solid fa-caret-right px-1"></i>
+        </a>
+        <a href="../Pianos/index.html" class="px-1">Products
+            <i class="fa-solid fa-caret-right px-1"></i>
+        </a>
+        <a href="../Musical Instruments/index.html">Musical Instruments</a>
+    </div>
+    <!-- Pianos -->
+    <section class="product container">
+        <h2 class="title pt-4 pb-3" id="percussion" style="font-size: 36px;">Percussion</h2>
+        <div class="row g-2 row-cols-md-2">
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card1.jpg" alt="">
+                  <a href="#">
+                    <h3>Vibraphones</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card2.jpg" alt="">
+                  <a href="#">
+                    <h3>Xylophones</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card3.jpg" alt="">
+                  <a href="#">
+                    <h3>Marimbas</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card4.jpg" alt="">
+                  <a href="#">
+                    <h3>Orchestra Bells</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card5.jpg" alt="">
+                  <a href="#">
+                    <h3>Chimes</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card6.jpg" alt="">
+                  <a href="#">
+                    <h3>Timpani</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card7.jpg" alt="">
+                  <a href="#">
+                    <h3>Snare/Concert Field Drums</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card8.jpg" alt="">
+                  <a href="#">
+                    <h3>Bass Drums</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card9.jpg" alt="">
+                  <a href="#">
+                    <h3>Tom Toms</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card10.jpg" alt="">
+                  <a href="#">
+                    <h3>Celesta and Keyboard Glockenspiel</h3>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card11.jpg" alt="">
+                  <a href="#">
+                    <h3>Marching Instruments</h3>
+                    <p>Yamaha marching instruments: a variety of percussions and marching brass.</p>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/percussion card12.jpg" alt="">
+                  <a href="#">
+                    <h3>Total Percussion</h3>
+                  </a>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-lg-0">
+          <div class="card border-0">
+              <img src="img/percussion card13.jpg" alt="">
+              <a href="#">
+                <h3>Percussion Accessories</h3>
+              </a>
+          </div>
+        </div>
+    </section>
+    <!-- Start Footer1 -->
+    <section class="footer1">
+    <div class="container">
+            <div class="col-12 d-flex flex-row text-center py-3">
+                <div class="row row-cols-md-2">
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/footer1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/footer2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/footer3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/footer4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="right pt-3 bg-dark text-end px-5">
+        <a href="#">
+            <i class="fa-solid fa-chevron-up text-white" title="Page Top"></i>
+        </a>
+    </div>
+    </section>
+    <!-- End Footer1 -->
+
+    <!-- Start Footer2 -->
+    <section class="footer2 bg-dark pt-4 pb-5 px-3">
+        <div class="container">
+          <div class="row row-cols-md-2 row-cols-sm-2">
+              <div class="col-lg-3 pt-3">
+                  <a href="#">
+                      <h6>Products</h6>
+                  </a>
+              <ul class="navbar-nav pt-1">
+                  <li class="nav-item">
+                      <a href="#">Pianos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Keyboard Instruments</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Guitar, Basses & Amps</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Drums</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Brass & Woodwinds</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Strings</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Percussion</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Marching Instruments</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Synthesizers & Music Production Tools</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Electronic Entertainment Instruments</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Audio & Visual</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Professional Audio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Apps</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Unified Communications</a>
+                  </li>
+              </ul>
+              </div>
+              <div class="col-lg-3 pt-3">
+                  <a href="#">
+                      <h6>News & Events</h6>
+                  </a>
+                  <ul class="navbar-nav pt-1">
+                      <li class="nav-item">
+                          <a href="#">Media Query</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Newsroom</a>
+                      </li>
+                  </ul>
+                  <a href="#">
+                      <h6 class="pt-4">Education</h6>
+                  </a>
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a href="#">Yamaha Music School programs</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Learn to Play Piano</a>
+                      </li>
+                  </ul>
+                  <a href="#">
+                      <h6 class="pt-4">Dealers</h6>
+                  </a>
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a href="#">Dealers Top</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 pt-3">
+                  <a href="#">
+                      <h6>Support</h6>
+                  </a>
+                  <ul class="navbar-nav pt-1">
+                      <li class="nav-item">
+                          <a href="#">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Product Safety Information</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">FAQs</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Warranty Information</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Find Servicer</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Brochures and Catalogs</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Manual Library</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Firmware / Software Updates</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Documents and Data</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 pt-3">
+                  <a href="#">
+                      <h6>About Yamaha</h6>
+                  </a>
+                  <ul class="navbar-nav pt-1">
+                      <li class="nav-item">
+                          <a href="#">Corporate Information</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Corporate Profile Video</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Careers</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Yamaha Philosophy</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Promises to Stakeholders</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Brand and History</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Investor Relations</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Sustainability</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Yamaha Music Blog</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Footer2 -->
+    <!-- Start Footer3 -->
+    <section class="footer3 text-center py-4">
+        <a href="https://www.tiktok.com/@yamahamusic">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a href="https://www.facebook.com/YamahaMusicUSA">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/yamahamusicusa/">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/yamahamusicusa">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com/c/yamahamusicusa">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/yamaha/mycompany/">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </section>
+    <!-- End Footer3 -->
+
+    <!-- Start Footer4 -->
+    <section class="footer4 bg-dark text-center text-white py-2">
+        <small class="pt-3">Copyright © Yamaha Corporation of America and Yamaha Corporation. All rights reserved.</small>
+    </section>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

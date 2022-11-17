@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #4e0e8d;
+    --secondary-color: #333;
+    --primary-fz: 18px;
+    --secondary-fz: 30px;
+    --font-family: Lato;
+    --font-weight: 600;
+    --text-color: #445166;
+    --secondary-font-family: 'Oswald', sans-serif;
+}

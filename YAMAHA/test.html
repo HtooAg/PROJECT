@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        .col {
+            border: 4px solid blue;
+            padding: 20px;
+        }
+
+        .box {
+            border: 4px solid blue;
+            width: 400px;
+            height: 400px;
+            position: relative;
+        }
+        .box::after {
+            content: "hello";
+            position: absolute;
+            right: 0;
+        }
+        .box::before {
+            content: "";
+            display: block;
+            width: 4px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        p {
+            font-size: 40px;
+            color: red;
+        }
+        p:hover {
+            cursor: pointer;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque alias natus, soluta quod eaque, minima, ab dolorem quis omnis nulla eum voluptas ea labore nam voluptatem libero aperiam distinctio quas!</p>
+    </div>
+    
+    <div class="box">Box</div>
+
+    <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2">
+        <div class="col">Col-1</div>
+        <div class="col">Col-2</div>
+        <div class="col">Col-3</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+        <div class="col">Col-4</div>
+    </div>
+</body>
+</html>

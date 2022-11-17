@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Professional Audio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/27bf763da3.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light d-flex flex-row container py-0">
+          <a href="#" class="navbar-brand">
+            <img src="img/yamaha-logo.jpg" alt="yamaha-logo">
+          </a>
+          <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+              <span class="navbar-toggler-icon"></span> 
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav m-auto px-5 text-center">
+              <li class="nav-item">
+                  <a href="../YAMAHA-PRODUCTS/index.html" class="nav-link active">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#dealer locator" class="nav-link">Dealer Locator</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#disocver" class="nav-link">Discover</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#support" class="nav-link">Support</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#shop" class="nav-link">Shop</a>
+              </li>
+              </ul>
+              <ul class="navbar-nav d-flex flex-row justify-content-center">
+                <li>
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-user" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" title="My Acount">
+                        </i>
+                    </a>
+                    <div class="modal fade" id="exampleModal" tabindex="-1"aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-black" id="exampleModalLabel">New message</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label text-black">Email address</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
+                                      
+                                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="exampleInputPassword1" class="form-label text-black">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password">
+                                      <div class="form-text">Must be 8-20 characters long.</div>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label text-black" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-cart-shopping px-3" title="Shop"></i>
+                    </a>
+                </li>
+                <form action="#" method="get" class="searchform navbar-form" role="search">
+                    <input type="hidden" value="search" name="view">
+                    <div class="input-group">
+                    <input type="text"  name="searchword" required class="form-control" placeholder="Search" name="q">
+                    <div class="input-group-btn">
+                       <button class="btn" type="submit">
+                          <i class="fa-solid fa-magnifying-glass" title="Search"></i>
+                       </button>
+                    </div>
+                    </div>
+                </form>
+            </ul>
+          </div>
+          </nav>
+              <!-- Second Navbar -->
+              <section class="navbar2 d-flex flex-row navbar navbar-expand-lg navbar-light px-5">
+                <button class="navbar-toggler" data-bs-target="#items" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="collapse navbar-collapse px-2" id="items">
+                    <ul class="navbar-nav px-5 py-2">
+                        <li>
+                            <a href="#marching" class="nav-link marching" style="color: var(--text-color);">
+                                Professional Audio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Downloads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">News & Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Training</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Special Contents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+              </section>
+              <div id="banner" class="carousel slide container" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="carousel" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/p-audio header1.jpg" class="d-block w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/p-audio header2.jpg" class="d-block w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/p-audio header3.jpg" class="d-block w-100" alt="">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="carousel"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="carousel"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+    </header>
+    <!-- End Navbar -->
+    <div class="home d-flex flex-row container pt-1">
+        <a href="../YAMAHA/index.html">Home
+            <i class="fa-solid fa-caret-right px-1"></i>
+        </a>
+        <a href="../YAMAHA-PRODUCTS/index.html" class="px-1">Products</a>
+    </div>
+    <!-- Products -->
+    <section class="product container">
+        <h2 class="title pt-4" id="marching" style="font-size: 36px;">Professional Audio</h2>
+        <h2 class="title pt-4">Products</h2>
+        <div class="row g-2">
+            <div class="col-lg-4 mb-lg-0">
+              <div class="card border-0">
+                  <img src="img/p-audio card1.jpg" alt="">
+                  <a href="#">
+                    <h3>Mixers</h3>
+                    <p>Mixers for live sound, broadcast, surround production, installations - a variety of applications. Yamaha mixers have earned the acclaim of top engineers around the world for their reliability, superb sound and intuitive operation.</p>
+                  </a>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card2.jpg" alt="">
+                    <a href="#">
+                      <h3>Interfaces</h3>
+                      <p>I/O Racks for digital mixer, Mini-YGDAI (Yamaha General Digital Audio Interface) cards for installation in digital mixer expansions slots, high-definition microphone preamplifiers, AD/DA converters, network interfaces, and more.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card3.jpg" alt="">
+                    <a href="#">
+                      <h3>Network Switches</h3>
+                      <p>Yamaha has used its knowledge of both IT and pro audio to provide Network Switches that have been optimized for Dante networked audio.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card4.jpg" alt="">
+                    <a href="#">
+                      <h3>Processors</h3>
+                      <p>A wide-ranging lineup including programmable DSP units packed with extensive audio processing resources, SPX multi-effect processors, and pre-configured DSP units for speaker processing.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card5.jpg" alt="">
+                    <a href="#">
+                      <h3>Power Amplifiers</h3>
+                      <p>Led by the cutting-edge PC-D series, which integrates powerful matrix functions, Dante I/Os, and DSP functions, the lineup meets the needs of a wide range of applications from live sound to commercial spaces with high quality and reliability.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card6.jpg" alt="">
+                    <a href="#">
+                      <h3>Speakers</h3>
+                      <p>Industry-standard studio monitors, speakers for band or small PA applications, installation speakers complete with mounting hardware, powered speakers with basic mixing facilities...a complete lineup for a wide range of applications.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card7.jpg" alt="">
+                    <a href="#">
+                      <h3>PA Systems</h3>
+                      <p>The essentials for superb PA sound and performance provided in comprehensive packages that feature ideally matched mixer, power amplification, and speakers.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card8.jpg" alt="">
+                    <a href="#">
+                      <h3>DAW Systems</h3>
+                      <p>Efficient, ergonomic control surfaces and high-performance audio interfaces that make the most of Steinberg DAW potential. Superior integration, operability, and sound quality offer distinct benefits in commercial post-production applications. </p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card9.jpg" alt="">
+                    <a href="#">
+                      <h3>Live Streaming</h3>
+                      <p>A group of products for a wide range of streaming and online communication applications such as personal live streaming.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card10.jpg" alt="">
+                    <a href="#">
+                      <h3>Headphones</h3>
+                      <p>Professional studio monitor headphones deliver precision sound reproduction that meets the demanding requirements of today's professional studio and monitoring applications</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card11.jpg" alt="">
+                    <a href="#">
+                      <h3>CD Players</h3>
+                      <p>The mechanically sound line of compact disc players that create the ultimate music reproduction performance.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card12.jpg" alt="">
+                    <a href="#">
+                      <h3>Active Field Control</h3>
+                      <p>The detailed, dimensional reverberation control capabilities of AFC Enhance can be used to create acoustic spaces in which acoustic images are positioned and controlled by AFC Image.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card13.jpg" alt="">
+                    <a href="#">
+                      <h3>Software</h3>
+                      <p>Discover our software and applications for PC, iPad, iPhone, and Android. Useful solutions for creating sound design.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card14.jpg" alt="">
+                    <a href="#">
+                      <h3>Steinberg Products</h3>
+                      <p>Steinberg is known the world over for its audio software and hardware solutions.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card15.jpg" alt="">
+                    <a href="#">
+                      <h3>NEXO Products</h3>
+                      <p>NEXO's pioneering technology, innovative designs and sonic excellence have enhanced live events across the globe for decades, gaining the respect and trust of sound professionals everywhere.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card16.jpg" alt="">
+                    <a href="#">
+                      <h3>Accessories</h3>
+                      <p>Accessory products for PA products.</p>
+                    </a>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-lg-0">
+                <div class="card border-0">
+                    <img src="img/p-audio card17.jpg" alt="">
+                    <a href="#">
+                      <h3>Unified Communications</h3>
+                      <p>Audio / video conferencing solutions for creating collaborative environments across the table or around the world.</p>
+                    </a>
+                </div>
+              </div>
+                <h2 class="title">Applications</h2>
+                <div class="col-lg-4 mb-lg-0">
+                  <div class="card border-0">
+                      <img src="img/p-audio card18.jpg" alt="">
+                      <a href="#">
+                          <h3>Live Sound</h3>
+                          <p>Features you can depend on for unsurpassed control and reliability, plus sound that delivers every show with maximum sonic impact.</p>
+                      </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-lg-0">
+                  <div class="card border-0">
+                      <img src="img/p-audio card19.jpg" alt="">
+                      <a href="#">
+                          <h3>BroadCast</h3>
+                          <p>You'll find Yamaha professional sound gear in broadcast studios and vehicles around the world. </p>
+                      </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-lg-0">
+                  <div class="card border-0">
+                      <img src="img/p-audio card20.jpg" alt="">
+                      <a href="#">
+                          <h3>Musician / Portable Sound</h3>
+                          <p>Easy to set up, portable PA systems ideal for live performance, music playback, speech and BGM applications.</p>
+                      </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-lg-0">
+                    <div class="card border-0">
+                        <img src="img/p-audio card21.jpg" alt="">
+                        <a href="#">
+                            <h3>Hall, Theater</h3>
+                            <p>Yamaha commercial audio gear will be most evident in the system you design and build for your own specific needs.</p>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-lg-0">
+                    <div class="card border-0">
+                        <img src="img/p-audio card22.jpg" alt="">
+                        <a href="#">
+                            <h3>Commercial Installed Sound</h3>
+                            <p>A comprehensive lineup allows flexible design for a wide range of applications. </p>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-lg-0">
+                    <div class="card border-0">
+                        <img src="img/p-audio card23.jpg" alt="">
+                        <a href="#">
+                            <h3>Music / Post Production </h3>
+                            <p>A leading DAW system, proven digital mixer technology, and outstanding reference monitor speakers come together to satisfy the diverse requirements of today's demanding production environment.</p>
+                        </a>
+                    </div>
+                  </div>
+                  <h2 class="title">What's News</h2>
+                  <div class="col-lg-3 mb-lg-0">
+                    <div class="card border-0">
+                        <img src="img/p-audio card24.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-9 mb-lg-0">
+                    <div class="card border-0">
+                        <a href="#">
+                            <h3>Yamaha Expands Its Portable Sound Solutions With STAGEPAS 1K mkII and DXL1K
+                            </h3>
+                            <time datetime="8/25/2022">8/25/2022</time>
+                            <p>Yamaha Corporation has announced new additions to its professional audio lineup: STAGEPAS 1K mkII portable PA system and DXL1K powered loudspeaker.</p>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 mb-lg-0">
+                    <div class="card border-0">
+                        <img src="img/p-audio card25.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-9 mb-lg-0">
+                    <div class="card border-0">
+                        <a href="#">
+                            <h3>"This Is Beautiful" - Front of House Engineer Brad Divens Switches To RIVAGE PM</h3>
+                            <time datetime="8/24/2022">8/24/2022</time>
+                            <p>After hanging up his bass guitar from his time in bands like Kix and Wrathchild America, Brad Divens has been the Front of House engineer for a range of major artists, including Linkin Park, Cyndi Lauper, Garbage, Bob Seger and the Silver Bullet Band and Mötley Crüe. This summer he mixed major European shows for Enrique Iglesias where, since switching to a Yamaha RIVAGE PM digital mixing system, he was able to bid a final farewell to years of touring with outboard racks.</p>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 mb-lg-0">
+                    <div class="card border-0">
+                        <img src="img/p-audio card26.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-9 mb-lg-0">
+                    <div class="card border-0">
+                        <a href="#">
+                            <h3>New Design Controller Template for ProVisionaire Control Released</h3>
+                            <time datetime="8/23/2022">8/23/2022</time>
+                            <p>Yamaha has released new design controller templates for ProVisionaire Control, to assist users in quickly and easily creating professional-looking controller panels.</p>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 mb-lg-0">
+                    <div class="card border-0">
+                        <img src="img/p-audio card27.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-9 mb-lg-0">
+                    <div class="card border-0">
+                        <a href="#">
+                            <h3>MTX/MRX/XMV series Firmware V4.10 Released</h3>
+                            <time datetime="8/3/2022">8/3/2022</time>
+                            <p>This firmware is an update for maintenance purposes.</p>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 mb-lg-0">
+                    <div class="card border-0">
+                        <img src="img/p-audio card28.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-9 mb-lg-0">
+                    <div class="card border-0">
+                        <a href="#">
+                            <h3>Tio1608-D Firmware V1.05 Released</h3>
+                            <time datetime="7/28/2022">7/28/2022</time>
+                            <p>This update adds support for SMPTE mode in Dante Domain Manager and fixes some bugs. Please read full details on the downloand page.</p>
+                        </a>
+                    </div>
+                  </div>
+        </div>
+    </section>
+    <!-- End Products -->
+
+    <!-- Start Footer1 -->
+    <section class="footer1">
+    <div class="container">
+            <div class="col-12 d-flex flex-row text-center py-3">
+                <div class="row row-cols-md-2">
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/footer1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/footer2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/footer3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <img src="img/footer4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="right pt-3 bg-dark text-end px-5">
+        <a href="#">
+            <i class="fa-solid fa-chevron-up text-white" title="Page Top"></i>
+        </a>
+    </div>
+    </section>
+    <!-- End Footer1 -->
+
+    <!-- Start Footer2 -->
+    <section class="footer2 bg-dark pt-4 pb-5 px-3">
+        <div class="container">
+          <div class="row row-cols-md-2 row-cols-sm-2">
+              <div class="col-lg-3 pt-3">
+                  <a href="#">
+                      <h6>Products</h6>
+                  </a>
+              <ul class="navbar-nav pt-1">
+                  <li class="nav-item">
+                      <a href="#">Pianos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Keyboard Instruments</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Guitar, Basses & Amps</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Drums</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Brass & Woodwinds</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Strings</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Percussion</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Marching Instruments</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Synthesizers & Music Production Tools</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Electronic Entertainment Instruments</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Audio & Visual</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Professional Audio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Apps</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#">Unified Communications</a>
+                  </li>
+              </ul>
+              </div>
+              <div class="col-lg-3 pt-3">
+                  <a href="#">
+                      <h6>News & Events</h6>
+                  </a>
+                  <ul class="navbar-nav pt-1">
+                      <li class="nav-item">
+                          <a href="#">Media Query</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Newsroom</a>
+                      </li>
+                  </ul>
+                  <a href="#">
+                      <h6 class="pt-4">Education</h6>
+                  </a>
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a href="#">Yamaha Music School programs</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Learn to Play Piano</a>
+                      </li>
+                  </ul>
+                  <a href="#">
+                      <h6 class="pt-4">Dealers</h6>
+                  </a>
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a href="#">Dealers Top</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 pt-3">
+                  <a href="#">
+                      <h6>Support</h6>
+                  </a>
+                  <ul class="navbar-nav pt-1">
+                      <li class="nav-item">
+                          <a href="#">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Product Safety Information</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">FAQs</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Warranty Information</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Find Servicer</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Brochures and Catalogs</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Manual Library</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Firmware / Software Updates</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Documents and Data</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 pt-3">
+                  <a href="#">
+                      <h6>About Yamaha</h6>
+                  </a>
+                  <ul class="navbar-nav pt-1">
+                      <li class="nav-item">
+                          <a href="#">Corporate Information</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Corporate Profile Video</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Careers</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Yamaha Philosophy</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Promises to Stakeholders</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Brand and History</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Investor Relations</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Sustainability</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#">Yamaha Music Blog</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Footer2 -->
+    <!-- Start Footer3 -->
+    <section class="footer3 text-center py-4">
+        <a href="https://www.tiktok.com/@yamahamusic">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a href="https://www.facebook.com/YamahaMusicUSA">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/yamahamusicusa/">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/yamahamusicusa">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com/c/yamahamusicusa">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/yamaha/mycompany/">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </section>
+    <!-- End Footer3 -->
+
+    <!-- Start Footer4 -->
+    <section class="footer4 bg-dark text-center text-white py-2">
+        <small class="pt-3">Copyright © Yamaha Corporation of America and Yamaha Corporation. All rights reserved.</small>
+    </section>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
